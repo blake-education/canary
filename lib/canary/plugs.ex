@@ -278,6 +278,7 @@ defmodule Canary.Plugs do
         fetch_resource(conn, opts)
     end
 
+    Plug.Conn.assign(conn, :resource_loaded, !!resource)
     Plug.Conn.assign(conn, :authorized, can?(current_user, action, resource))
   end
 
