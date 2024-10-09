@@ -4,6 +4,10 @@
   *
     * Add `repo` as an override option to the plugs
 
+## v1.1.2
+  * Enhancements
+    * Use `:extra_applications` opt
+
 ## v1.1.0
   * Enhancements
     * Add `non_id_actions` opt
